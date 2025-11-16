@@ -7,10 +7,6 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(({ mode }) => {
     return {
-      define: {
-        // Kjo siguron që çelësi API të mos përfshihet kurrë në kodin e klientit.
-        'process.env.API_KEY': 'undefined',
-      },
       server: {
         port: 3000,
         host: '0.0.0.0',
