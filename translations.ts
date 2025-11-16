@@ -1,0 +1,151 @@
+export const translations: Record<string, Record<string, string>> = {
+  // Header
+  navHome: { standard: 'Kryefaqja', dibran: 'Kryefaqe' },
+  navPersonalities: { standard: 'Personalitete', dibran: 'Personalitete' },
+  navTraditions: { standard: 'Tradita & Gatime', dibran: 'Tradita & Gatime' },
+  navDiaspora: { standard: 'Diaspora', dibran: 'Diaspora' },
+  navEvents: { standard: 'Evente', dibran: 'Evente' },
+  navContacts: { standard: 'Kontakte', dibran: 'Kontakte' },
+  appName: { standard: 'ZBULO MAQELLAREN', dibran: 'ZBULO MAQELLARËN' },
+  openMenu: { standard: 'Hap menunë', dibran: 'Hape menunë' },
+  language: { standard: 'Gjuha', dibran: 'Gjuha' },
+  standardAlbanian: { standard: 'Shqip Standard', dibran: 'Shqip Standard' },
+  dibraDialect: { standard: 'Dialekti Dibran', dibran: 'Gjuha Dibrane' },
+
+  // Home Page
+  welcomeToMaqellara: { standard: 'Mirësevini në Maqellarë', dibran: 'Mirësevini n\'Maqellarë' },
+  homeSubtitle: { standard: 'Zbuloni zemrën e Dibrës: një vend ku historia, natyra dhe tradita bashkohen.', dibran: 'Zbuloni zemrën e Dibrës: ni vend ku historia, natyra e tradita bashkohen.' },
+  historyAndGeography: { standard: 'Pak Histori dhe Gjeografi', dibran: 'Pak Histori e Gjeografi' },
+  homeHistoryText: { standard: 'Njësia Administrative Maqellarë, e vendosur në një pozicion strategjik në verilindje të Shqipërisë, është një trevë me histori të pasur dhe bukuri natyrore mahnitëse. E rrethuar nga male dhe lugina pjellore, Maqellara ka qenë historikisht një udhëkryq i rëndësishëm kulturor dhe tregtar, duke ruajtur me krenari traditat dhe zakonet e saj të lashta.', dibran: 'Maqellara, e vendosun n\'pozicion strategjik n\'verilindje t\'Shqipnisë, asht ni trevë me histori t\'pasun e bukuri natyrore t\'mdhaja. E rrethueme prej malleve e luginave pjellore, Maqellara ka kênë historikisht ni udhëkryq i rëndësishëm kulturor e tregtar, tuj i rujt me krenari traditat e zakonet e veta t\'vjetra.' },
+  exploreVillages: { standard: 'Eksploroni Fshatrat Tona', dibran: 'Shfletoni Fshatrat Tona' },
+  searchVillage: { standard: 'Kërko një fshat...', dibran: 'Kërko ni fshat...' },
+  noVillagesFound: { standard: 'Nuk u gjet asnjë fshat që përputhet me kërkimin tuaj.', dibran: 'S\'u gjind kërni fshat qi përputhet me kërkimin tand.' },
+  welcomeBack: { standard: 'Mirëserdhe përsëri!', dibran: 'Mirë se erdhe prap!' },
+  lastVisited: { standard: 'Herën e fundit vizituat: {villageName}.', dibran: 'Herën e fundit vizitove: {villageName}.' },
+  returnToVillage: { standard: 'Vizito Përsëri', dibran: 'Vizito Prap' },
+
+  // Village Page
+  share: { standard: 'Shpërndaje:', dibran: 'Shpërndaje:' },
+  shareOnFacebook: { standard: 'Shpërndaje në Facebook', dibran: 'Shpërndaje n\'Facebook' },
+  shareOnTwitter: { standard: 'Shpërndaje në Twitter', dibran: 'Shpërndaje n\'Twitter' },
+  shareOnWhatsapp: { standard: 'Shpërndaje në WhatsApp', dibran: 'Shpërndaje n\'WhatsApp' },
+  interactiveMap: { standard: 'Harta Interaktive', dibran: 'Harta Interaktive' },
+  mapDescription: { standard: 'Për të parë vendndodhjen e saktë, klikoni butonin më poshtë për të hapur Google Maps në një skedë të re.', dibran: 'Për me pa vendndodhjen e saktë, shtyp butonin ma poshtë për me hap Google Maps n\'ni faqe t\'re.'},
+  openGoogleMaps: { standard: 'Shiko në Google Maps', dibran: 'Shiko n\'Google Maps' },
+  promoteActivity: { standard: 'Promovoni Aktivitetin Tuaj', dibran: 'Promovo Aktivitetin Tand' },
+  promoteActivityPrompt: { standard: 'Keni një foto, një video, një histori, apo një aktivitet lokal që doni ta ndani? Postojeni këtu! Postimi juaj do të shfaqet pas miratimit nga administratori.', dibran: 'A keni ni foto, ni video, ni histori, a ni aktivitet lokal qi doni me e nda? Postojeni ktu! Postimi juej ka me u shfaq mas miratimit prej administratorit.'},
+  communityGallery: { standard: 'Galeria e Komunitetit', dibran: 'Galeria e Komunitetit' },
+  noPostsVillage: { standard: 'Ende nuk ka postime për këtë fshat. Bëhu i pari që ndan diçka!', dibran: 'Hala s\'ka postime për kët fshat. Bëhu i pari qi ndan dishka!' },
+  addPost: { standard: 'Shto Postim të Ri', dibran: 'Shto Postim t\'Ri' },
+
+  // Personalities Page
+  notablePersonalities: { standard: 'Personalitete të Shquara', dibran: 'Personalitete t\'Shqueme' },
+  generatingContent: { standard: 'Duke gjeneruar përmbajtje...', dibran: 'Tu gjeneru përmbajtje...' },
+  sources: { standard: 'Burimet e Informacionit:', dibran: 'Burimet e Informacionit:' },
+
+  // Traditions Page
+  traditionsPageTitle: { standard: 'Tradita dhe Gastronomia', dibran: 'Tradita e Gastronomia' },
+  traditionsPageIntro: { standard: 'Maqellara është një trevë ku traditat e lashta dhe shijet autentike ruhen me fanatizëm. Zbuloni disa nga elementët kyç që formojnë identitetin kulturor dhe kulinar të zonës.', dibran: 'Maqellara asht ni trevë ku traditat e vjetra e shijet autentike ruhen me fanatizëm. Zbuloni disa prej elementëve kryesorë qi formojnë identitetin kulturor e kulinar t\'zonës.' },
+  traditionsTitle: { standard: 'Zakone dhe Tradita', dibran: 'Zakone e Tradita' },
+  gastronomyTitle: { standard: 'Gastronomia Vendase', dibran: 'Gatimet e Vendit' },
+  odaDibrane: { standard: 'Oda Dibrane', dibran: 'Oda Dibrane' },
+  dibranWedding: { standard: 'Dasma Dibrane', dibran: 'Dasma Dibrane' },
+  traditionalClothing: { standard: 'Veshjet Tradicionale', dibran: 'Veshjet Tradicionale' },
+  jufka: { standard: 'Jufkat Dibrane', dibran: 'Jufkat Dibrane' },
+  sheqerpare: { standard: 'Sheqerparja', dibran: 'Sheqerparja' },
+  flija: { standard: 'Flija', dibran: 'Flija' },
+  
+  // Diaspora Page
+  maqellaraDiaspora: { standard: 'Maqellarasit në Diasporë', dibran: 'Maqellarasit n\'Diasporë' },
+  diasporaIntro1: { standard: 'Kjo faqe i dedikohet të gjithë maqellarasve që jetojnë dhe punojnë larg vendlindjes së tyre. Ju jeni ambasadorët tanë më të mirë në botë dhe lidhja juaj me rrënjët është forca jonë.', dibran: 'Kjo faqe i dedikohet gjithë maqellarasve qi jetojnë e punojnë larg vendlindjes së tyne. Ju jeni ambasadorët tanë ma t\'mirë n\'botë e lidhja juej me rrënjët asht forca jonë.' },
+  diasporaIntro2: { standard: 'Këtu mund të ndani histori suksesi, kujtime, foto dhe lajme nga komunitetet tona në diasporë, duke u lidhur me njëri-tjetrin e duke kontribuar në forcimin e lidhjeve me Maqellarën.', dibran: 'Këtu mund t\'ndani histori suksesi, kujtime, foto e lajme prej komuniteteve tona n\'diasporë, tuj u lidh me njani-tjetrin e tuj kontribu n\'forcimin e lidhjeve me Maqellarën.' },
+  shareYourStory: { standard: 'Ndani Historinë Tuaj', dibran: 'Ndani Historinë Tuej' },
+  shareYourStoryPrompt: { standard: 'Keni një foto, një video, një kujtim, apo një histori nga jeta juaj në diasporë që doni ta ndani? Postojeni këtu! Postimi juaj do të shfaqet pas miratimit nga administratori.', dibran: 'A keni ni foto, ni video, ni kujtim, a ni histori prej jetës juej n\'diasporë qi doni me e nda? Postojeni ktu! Postimi juej ka me u shfaq mas miratimit prej administratorit.' },
+  diasporaGallery: { standard: 'Galeria e Diasporës', dibran: 'Galeria e Diasporës' },
+  noPostsDiaspora: { standard: 'Ende nuk ka postime nga diaspora. Bëhu i pari që ndan diçka!', dibran: 'Hala s\'ka postime prej diasporës. Bëhu i pari qi ndan dishka!' },
+
+  // Events Page
+  eventsPageTitle: { standard: 'Evente dhe Aktivitete', dibran: 'Evente e Aktivitete' },
+  eventsPageIntro: { standard: 'Zbuloni aktivitetet dhe festat lokale që e bëjnë Maqellarën një vend të gjallë dhe dinamik. Merrni pjesë për të përjetuar kulturën tonë nga afër!', dibran: 'Zbuloni aktivitetet e festat lokale qi e bëjnë Maqellarën ni vend t\'gjallë e dinamik. Merrni pjesë për me përjetu kulturën tonë prej afër!' },
+  noEvents: { standard: 'Për momentin nuk ka evente të planifikuara. Ju lutem kontrolloni përsëri më vonë.', dibran: 'Tash për tash s\'ka evente t\'planifikueme. Ju lutem kontrolloni prap ma vonë.' },
+  date: { standard: 'Data:', dibran: 'Data:' },
+  location: { standard: 'Vendndodhja:', dibran: 'Vendndodhja:' },
+
+  // Contacts Page
+  contactsPageTitle: { standard: 'Numra të Rëndësishëm Kontakti', dibran: 'Numra t\'Rëndësishëm Kontakti' },
+  contactsPageIntro: { standard: 'Këtu gjeni një listë të numrave të rëndësishëm për urgjenca dhe shërbime të tjera publike në zonë.', dibran: 'Këtu gjeni ni listë t\'numrave t\'rëndësishëm për urgjenca e shërbime tjera publike n\'zonë.' },
+  police: { standard: 'Policia', dibran: 'Policia' },
+  ambulance: { standard: 'Ambulanca', dibran: 'Ambulanca' },
+  firefighters: { standard: 'Zjarrfikësit', dibran: 'Zjarrfikësit' },
+  municipalServices: { standard: 'Shërbimet Komunale', dibran: 'Shërbimet Komunale' },
+
+  // Post Form
+  newPostFor: { standard: 'Postim i Ri për {villageName}', dibran: 'Postim i Ri për {villageName}' },
+  shareWithDiaspora: { standard: 'Ndani Historinë Tuaj me Diasporën', dibran: 'Ndani Historinë Tuej me Diasporën' },
+  postingRules: { standard: 'Kushtet e Postimit:', dibran: 'Rregullat e Postimit:' },
+  rule1: { standard: 'Nuk pranohen postime me përmbajtje ofenduese, nxitje urrejtjeje, shpifje apo imoraliteti.', dibran: 'Nuk pranohen postime me përmbajtje fyese, nxitje urrejtjeje, shpifje a imoralitet.' },
+  rule2: { standard: 'Fotografitë nuk duhet të përmbajnë portrete personash, veçanërisht të miturish.', dibran: 'Fotografitë nuk duhet me pas portrete personash, sidomos t\'mitunish.' },
+  rule3: { standard: 'Fokusohuni në promovimin e bukurive natyrore dhe aktiviteteve me interes publik.', dibran: 'Fokusohuni n\'promovimin e bukurive natyrore dhe aktiviteteve me interes publik.' },
+  rule4: { standard: 'Të gjitha postimet i nënshtrohen miratimit nga administratori.', dibran: 'Gjithë postimet i nënshtrohen miratimit prej administratorit.' },
+  yourName: { standard: 'Emri juaj', dibran: 'Emni juej' },
+  commentOrDescription: { standard: 'Komenti ose përshkrimi', dibran: 'Komenti a përshkrimi' },
+  addMedia: { standard: 'Shto Media (Foto ose Video)', dibran: 'Shto Media (Foto a Video)' },
+  uploadPhoto: { standard: 'Ngarko Foto', dibran: 'Ngarko Foto' },
+  addVideo: { standard: 'Shto Video (YouTube)', dibran: 'Shto Video (YouTube)' },
+  chooseFile: { standard: 'Zgjidh një skedar', dibran: 'Zgjidh ni skedar' },
+  dragHere: { standard: 'ose tërhiqe këtu', dibran: 'a tërhiqe ktu' },
+  youtubeUrl: { standard: 'URL e Videos nga YouTube', dibran: 'URL e Videos prej YouTube' },
+  submitForApproval: { standard: 'Dërgo për Miratim', dibran: 'Dërgo për Miratim' },
+  
+  // Chatbot
+  askTheGuide: { standard: 'Pyet Guiden', dibran: 'Pyete Guiden' },
+  chatbotWelcome: { standard: 'Përshëndetje! Unë jam guida juaj virtuale për Maqellarën. Si mund t\'ju ndihmoj sot?', dibran: 'Tungjatjeta! Unë jam guida jote virtuale për Maqellarën. Qysh mundem me t\'ndihmu sot?' },
+  typeYourQuestion: { standard: 'Shkruaj pyetjen tënde...', dibran: 'Shkruje pyetjen tande...' },
+  sendMessage: { standard: 'Dërgo mesazhin', dibran: 'Dërgo mesazhin' },
+  closeChat: { standard: 'Mbyll bisedën', dibran: 'Mbylle bisedën' },
+
+
+  // Footer
+  footerRights: { standard: 'Zbulo Maqellarën. Të gjitha të drejtat të rezervuara.', dibran: 'Zbulo Maqellarën. Gjithë t\'drejtat t\'rezervueme.' },
+  footerSlogan: { standard: 'Promovojmë bashkë vlerat tona.', dibran: 'Promovojmë bashkë vlerat tona.' },
+  termsOfService: { standard: 'Kushtet e Shërbimit', dibran: 'Kushtet e Shërbimit' },
+  privacyPolicy: { standard: 'Politika e Privatësisë', dibran: 'Politika e Privatësisë' },
+  adminPanel: { standard: 'Paneli i Administratorit', dibran: 'Paneli i Administratorit' },
+
+  // Admin Login
+  adminLoginTitle: { standard: 'Hyrje Admin', dibran: 'Hyrje Admin' },
+  adminLoginPrompt: { standard: 'Ju lutem vendosni fjalëkalimin për të aksesuar panelin e administratorit.', dibran: 'Ju lutem vendosni fjalëkalimin për me pas qasje n\'panelin e administratorit.' },
+  password: { standard: 'Fjalëkalimi', dibran: 'Fjalëkalimi' },
+  login: { standard: 'Hyr', dibran: 'Hyr' },
+  wrongPassword: { standard: 'Fjalëkalim i gabuar! Ju lutem provoni përsëri.', dibran: 'Fjalëkalim i gabuem! Ju lutem provoni prap.' },
+
+  // Admin Dashboard
+  adminDashboardTitle: { standard: 'Paneli i Administratorit', dibran: 'Paneli i Administratorit' },
+  logout: { standard: 'Dil', dibran: 'Dil' },
+  pending: { standard: 'Në Pritje', dibran: 'N\'Pritje' },
+  approved: { standard: 'Të Miratuara', dibran: 'T\'Miratueme' },
+  archived: { standard: 'Të Arkivuara', dibran: 'T\'Arkivueme' },
+  pendingPostsTitle: { standard: 'Postime në Pritje të Miratimit', dibran: 'Postime n\'Pritje t\'Miratimit' },
+  approvedPostsTitle: { standard: 'Postime të Miratuara', dibran: 'Postime t\'Miratueme' },
+  archivedPostsTitle: { standard: 'Postime të Arkivuara', dibran: 'Postime t\'Arkivueme' },
+  noPostsInCategory: { standard: 'Nuk ka postime në këtë kategori.', dibran: 'S\'ka postime n\'kët kategori.' },
+  approve: { standard: 'Approvo', dibran: 'Approvo' },
+  reject: { standard: 'Refuzo', dibran: 'Refuzo' },
+  archive: { standard: 'Arkivo', dibran: 'Arkivo' },
+  restore: { standard: 'Rivendos', dibran: 'Rivendos' },
+  deletePermanently: { standard: 'Fshij Përfundimisht', dibran: 'Fshije Përfundimisht' },
+  confirmReject: { standard: 'Jeni i sigurt që doni ta refuzoni këtë postim? Ai do të fshihet.', dibran: 'A jeni i sigurt qi doni me e refuzu kët postim? Ai ka me u fshi.' },
+  confirmDelete: { standard: 'Jeni i sigurt? Ky veprim nuk mund të kthehet pas.', dibran: 'A jeni i sigurt? Ky veprim nuk mund t\'kthehet mas.' },
+  managePassword: { standard: 'Menaxhimi i Fjalëkalimit', dibran: 'Menaxhimi i Fjalëkalimit' },
+  changePassword: { standard: 'Ndrysho Fjalëkalimin', dibran: 'Ndrysho Fjalëkalimin' },
+  oldPassword: { standard: 'Fjalëkalimi i Vjetër', dibran: 'Fjalëkalimi i Vjetër' },
+  newPassword: { standard: 'Fjalëkalimi i Ri', dibran: 'Fjalëkalimi i Ri' },
+  confirmNewPassword: { standard: 'Konfirmo Fjalëkalimin e Ri', dibran: 'Konfirmo Fjalëkalimin e Ri' },
+  saveChanges: { standard: 'Ruaj Ndryshimet', dibran: 'Ruaj Ndryshimet' },
+  cancel: { standard: 'Anulo', dibran: 'Anulo' },
+  wrongOldPassword: { standard: 'Fjalëkalimi i vjetër nuk është i saktë.', dibran: 'Fjalëkalimi i vjetër nuk asht i saktë.' },
+  passwordTooShort: { standard: 'Fjalëkalimi i ri duhet të ketë të paktën 6 karaktere.', dibran: 'Fjalëkalimi i ri duhet me pas t\'paktën 6 karaktere.' },
+  passwordsDoNotMatch: { standard: 'Fjalëkalimet e reja nuk përputhen.', dibran: 'Fjalëkalimet e reja nuk përputhen.' },
+  passwordChangedSuccess: { standard: 'Fjalëkalimi u ndryshua me sukses!', dibran: 'Fjalëkalimi u ndryshua me sukses!' },
+  
+};

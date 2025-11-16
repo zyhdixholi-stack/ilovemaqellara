@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "zbulo.maqellara",
+    "sha256_cert_fingerprints":
+    ["8E:F0:32:EE:20:A2:C5:E9:2B:34:F8:7E:80:04:7C:51:86:A0:5C:EA:85:E6:7A:8C:F9:19:0B:7E:2D:DD:3F:E5"]
+  }
+}]
