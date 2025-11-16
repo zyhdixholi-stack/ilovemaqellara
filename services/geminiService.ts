@@ -7,14 +7,21 @@ export interface GenerateContentResult {
   sources?: { uri: string; title: string }[];
 }
 
+const API_KEY_MISSING_MESSAGE = "Ndjesë, funksionaliteti i asistentit virtual (AI) është çaktivizuar për momentin. Ju lutem provoni përsëri më vonë.";
+
 
 export const generateContent = async (
     prompt: string, 
     useWebSearch: boolean = false,
     language: Language = 'standard'
 ): Promise<GenerateContentResult> => {
+  if (!process.env.API_KEY) {
+    console.error("Gemini API Key mungon. Çaktivizohet funksionaliteti i AI.");
+    return { text: API_KEY_MISSING_MESSAGE, sources: [] };
+  }
+  
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
     const dialectInstruction = language === 'dibran'
       ? "Përdor dialektin Dibran në përgjigjen tënde, duke përdorur fjalë dhe shprehje karakteristike të kësaj zone."
