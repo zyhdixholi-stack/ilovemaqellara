@@ -7,7 +7,8 @@ export const handler = async (event: any, context: any) => {
 
   try {
     const { prompt, useWebSearch = false, language = 'standard' } = JSON.parse(event.body);
-    const apiKey = process.env.API_KEY;
+    // Aksesojmë çelësin API në mënyrë indirekte për të shmangur zëvendësimin gjatë ndërtimit
+    const apiKey = process.env['API_KEY'];
 
     if (!apiKey) {
         const errorResponse = { text: "Ndjesë, funksionaliteti i asistentit virtual (AI) është çaktivizuar për momentin sepse çelësi API mungon në server." };
